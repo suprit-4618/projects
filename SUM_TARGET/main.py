@@ -14,8 +14,7 @@ def sum_tar(arr, target):
         else:
             left += 1
     return pairs
-
-
 arr = list(map(int, input("Enter the sorted array elements: ").split(",")))
 target = int(input("Enter the target sum: "))
 print(sum_tar(arr, target))
+
